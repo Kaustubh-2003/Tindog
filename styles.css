@@ -1,0 +1,212 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: medium;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Montserrat-bold" ;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+/* big-heading */
+.big-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    
+}
+
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+
+.tophead{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding:0 20px;
+}
+
+.nav-link{
+    font-family: "Montserrat-light";
+    font-weight: light;
+    font-size: 1rem;
+}
+
+.pghead{
+    color: white;
+    font-size: 3.5rem;
+   
+}
+
+.carousel-txt{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.rotate30 {
+    /* -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg); */
+    transform: rotate(25deg);
+    /* position: absolute; */
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.dd{
+    margin: 3% 3% 3% 0%;
+}
+
+.imgg{
+    position: relative;
+}
+
+.dwb{
+    margin: 5% 3% 5% 0% ;
+}
+
+
+#features{
+    padding: 7% 12%;
+    position: relative;
+    background-color: white;
+    /* z-index: 1; */
+}
+
+
+.features{
+    text-align: center;
+    padding: 5%;
+}
+
+.featureshead{
+    font-family:"Montserrat";
+    font-weight:900;
+    font-size: 1.5rem;
+}
+
+
+.fa-solid{
+    margin-bottom: 1rem;
+    color: #ff4c68;
+}
+
+.fa-solid:hover{
+    color: #d60b29;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    
+
+}
+
+.doggy{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.testis-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing column for the website */
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2% ;
+}
+
+
+hcta{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 4% 15% 7%;
+    text-align: center;
+}
+
+
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fot{
+    margin: 0% 5px;
+}
+
+
+@media (max-width:993px){
+    
+    .rotate30{
+        width: 55%;
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
